@@ -1,0 +1,36 @@
+.custom-main {
+    background-color: #000080;
+}
+
+.custom-btn-primary {
+    background-color: #000080;
+    border: 2px solid #000080;
+    border-radius: 45px;
+}
+
+.custom-nav {
+    font-size: 1.5rem;
+    color: #000080 !important;
+    text-decoration: none;
+}
+
+.custom-navbar-bg-light {
+    background-color: #fff !important;
+}
+
+.btn-primary {
+    background-color: #000080 !important;
+    border: 1px solid #000080;
+}
+
+.card {
+    border: 2px solid #000080;
+}
+
+.card-text {
+    color: #000080 !important;
+}
+
+.card h5 {
+    color: #000080;
+}

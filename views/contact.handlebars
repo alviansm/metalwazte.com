@@ -1,0 +1,70 @@
+<nav class="navbar navbar-light bg-light custom-navbar-bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+        <img src="/public/images/metalwazte.png" alt="MetalWazte.com Main Logo" width="128" height="128">
+    </a>
+    
+    <ul class="nav justify-content-end">
+        <li class="nav-item custom-nav">
+            <a class="nav-link active" href="/">Home</a>
+        </li>
+        <li class="nav-item custom-nav">
+            <a class="nav-link disabled" href="/" aria-current="page" tabindex="-1" aria-disabled="true">Contact</a>
+        </li>
+        <li class="nav-item custom-nav">
+            <a class="nav-link active" href="/johndoe">Profile</a>
+        </li>        
+    </ul>
+  </div>
+</nav>
+
+<main>
+    <div class="mb-md-4">
+        <div class="container py-md-3 custom-main">
+            <h1 class="my-1 text-light">Find The Best Marine Service</h1>
+            <h3 class="my-1 text-light">Connector Platform</h3>
+            <p class="lead my-1 text-light">Scrapping Service - Decommissioning - Offshore Owner</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row g-3">
+
+            <!-- Single card-->
+            <div class="card mb-3 p-3" style="max-width: 500px;">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="/public/images/products/dummy-ship.png" class="img-fluid" alt="Product for sale">
+                    </div>
+                    <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title"><b>PT Teknologi Empat Daun</b></h5>
+                        <p class="card-text">
+                            <b>Status:</b> <span class="badge bg-success">Available</span> <br>
+                            <b>Build:</b> 1988 <br>
+                            <b>Location:</b> Surabaya <br>
+                            <b>CEO:</b> John Doe
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-md-6 mb-2">
+                        <p class="card-text custom-price">
+                            <b>Service:</b> <br>
+                            Shipbuilding - Repair
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <a class="btn btn-primary" style="width: 100%;"> 
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- End of single card -->
+
+        </div>
+    </div>
+</main>
+
+{{> components/footer}}

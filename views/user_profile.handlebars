@@ -1,0 +1,105 @@
+<nav class="navbar navbar-light bg-light custom-navbar-bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+        <img src="/public/images/metalwazte.png" alt="MetalWazte.com Main Logo" width="128" height="128">
+    </a>
+    
+    <ul class="nav justify-content-end">
+        <li class="nav-item custom-nav">
+            <a class="nav-link active" href="/">Home</a>
+        </li>
+        <li class="nav-item custom-nav">
+            <a class="nav-link active" aria-current="page" href="/contact">Contact</a>
+        </li>
+        <li class="nav-item custom-nav">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Profile</a>
+        </li>        
+    </ul>
+  </div>
+</nav>
+
+<main>
+    <div class="mb-md-4">
+        <div class="container py-md-3 custom-main">
+            <h1 class="my-1 text-light">PT Teknologi Empat Daun</h1>
+            <h3 class="my-1 text-light">Shipowner - Shipbuilding</h3>
+            <p class="lead my-1 text-light">Shipping - New Building - Repair</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-md-7">
+                <img class="img-fluid" src="/public/images/user/profile.jpg" style="width: 100%;">
+            </div>
+            <div class="col-md-5">
+                <p class="lead"><b>Location:</b> Barcelona</p>
+                <p class="lead"><b>Founded:</b> 1998</p>
+                <p class="lead"><b>CEO:</b> John Doe</p>
+                <p class="lead"><b>Company Contact:</b> cs@metalwazte.com</p>
+                <p class="lead"><b>Website:</b> <a href="/">tedshipyard.com</a></p>                
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-md-4 mt-md-4">
+        <div class="container py-md-3 custom-main">
+            <h4 class="my-1 text-light">Product & Service</h4>
+        </div>
+
+        <table class="table container">
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Product or Service</th>
+                <th scope="col">Price Range</th>
+                <th scope="col">Option</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>MV Lucky Ship 800 GT</td>
+                    <td>USD 250000,-</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm">View</a>
+                        <a class="btn btn-primary btn-sm">Edit</a>
+                        <a class="btn btn-danger btn-sm">Remove</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row g-3">
+            
+            <div class="col-md-4">
+                <a href="#">
+                    <p class="lead text-center"><b>Sell Marine Transportasion</b></p>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="#">
+                    <p class="lead text-center"><b>Sell Oil Platform</b></p>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="#">
+                    <p class="lead text-center"><b>Sell Shipyard</b></p>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="#">
+                    <p class="lead text-center"><b>Shipping Service</b></p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+{{> components/footer}}

@@ -1,0 +1,58 @@
+<section>
+    <div class="container">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <h3 class="mb-3" style="color: #000080;"><b>Register</b></h3>
+            {{#if error}}
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Holy guacamole!</strong> {{error}}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {{/if}}
+            <form class="p-4" style="border: 2px solid #000080; width:100%; max-width: 480px;" action="register" method="post">
+                <div class="mb-2 d-flex flex-column align-items-center">
+                    <label for="username" class="mx-2" style="color: #000080;"><b>Username</b></label>
+                    <input class="form-control" type="text" id="username" name="username" placeholder="flshipyard" value="{{username}}" required>
+                </div>
+                <div class="mb-2 d-flex flex-column align-items-center">
+                    <label for="email" class="mx-2" style="color: #000080;"><b>Email</b></label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="youremail@mail.com" value="{{email}}" required>
+                </div>
+                <div class="mb-2 d-flex flex-column align-items-center">
+                    <label for="company_name" class="mx-2" style="color: #000080;"><b>Company Name</b></label>
+                    <input class="form-control" type="text" id="company_name" name="company_name" placeholder="PT Contoh Perusahaan Semesta" value="{{company_name}}" required>
+                </div>
+                <div class="mb-2 d-flex flex-column align-items-center">
+                    <label for="company_role" class="mx-2" style="color: #000080;"><b>Company Role</b></label>
+                    <input class="form-control" type="text" id="company_role" name="company_role" placeholder="Shipowner, Shipbuilding" value="{{company_role}}" required>
+                </div>
+                <div class="mb-2 d-flex flex-column align-items-center">
+                    <label for="company_service" class="mx-2" style="color: #000080;"><b>Company Service</b></label>
+                    <input class="form-control" type="text" id="company_service" name="company_service" placeholder="New Building, Repair" value="{{company_service}}" required>
+                </div>
+                <div class="mb-2 d-flex flex-column align-items-center">
+                    <label for="location" class="mx-2" style="color: #000080;"><b>Location</b></label>
+                    <input class="form-control" type="text" id="location" name="location" placeholder="Surabaya, Indonesia" value="{{location}}" required>
+                </div>
+                <div class="mb-2 d-flex flex-column align-items-center">
+                    <label for="founded" class="mx-2" style="color: #000080;"><b>Founded</b></label>
+                    <input class="form-control" type="text" id="founded" name="founded" placeholder="1988" value="{{founded}}" required>
+                </div>
+                <div class="mb-2 d-flex flex-column align-items-center">
+                    <label for="ceo" class="mx-2" style="color: #000080;"><b>CEO</b></label>
+                    <input class="form-control" type="text" id="ceo" name="ceo" placeholder="John Doe" value="{{ceo}}" required>
+                </div>
+                <div class="mb-2 d-flex flex-column align-items-center">
+                    <label for="company_website" class="mx-2" style="color: #000080;"><b>Company Website</b></label>
+                    <input class="form-control" type="text" id="company_website" name="company_website" placeholder="somewebsite.com" value="{{company_website}}" required>
+                </div>
+                <div class="mb-2 d-flex flex-column align-items-center">
+                    <label for="password" class="mx-2" style="color: #000080;"><b>Password</b></label>
+                    <input class="form-control" type="password" id="password" name="password" maxlength="50" placeholder="Account Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>            
+            <p class="text-center my-0 mt-1" style="color: #000080;"><a href="/login">Sign in</a> if you already have an account.</p>
+            <p class="text-end"><a href="/">Home</a></p>
+        </div>
+    </div>
+</section>

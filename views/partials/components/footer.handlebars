@@ -1,0 +1,18 @@
+<footer class="bg-light text-center text-lg-start mt-5">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <small>© 2022</small>
+    {{#if payload}}
+    <p>
+        You are signed as
+        <a class="text-dark" href="/">John Doe</a>
+    </p>
+    {{else}}
+    <p>
+        <a class="text-dark" href="/login">Sign in</a>
+        to access full features.
+    </p>
+    {{/if}}
+  </div>
+  <!-- Copyright -->
+</footer>
